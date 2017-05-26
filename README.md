@@ -18,13 +18,13 @@ Steps to follow:
 To classifiy the given description entered by the user will be calssiferd into SOFTWARE or HADRWARE(Using Bernoulli NavieBayes)
 Results Will be followed as follows:
 
-<h1>Sample Output:</h1>
-               1.Enter your Description to Classify
-               2.Display confusion Matrix(Classifier)
-               3.Exit/Quit
+<h1>Sample Output:</h1><br>
+               1.Enter your Description to Classify <br>
+               2.Display confusion Matrix(Classifier) <br>
+               3.Exit/Quit <br>
                
-What would you like to do? 1
-Enter the Request Description to classify: monitor issue
+What would you like to do? 1 <br>
+<b>Enter the Request Description to classify: monitor issue<b>
 *********************************
 'monitor issue' => ['hardware']
 *********************************
@@ -34,8 +34,8 @@ Enter the Request Description to classify: monitor issue
                3.Exit/Quit
                
 What would you like to do? 2
-Classification of Request description(Using Bernoulli NaievBayes Algo)
-             	precision    recall  f1-score   support
+Classification of Request description(Using Bernoulli NaievBayes Algo)<br>
+             	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;precision&nbsp;&nbsp;&nbsp;&nbsp;recall&nbsp;&nbsp;&nbsp;&nbsp;f1-score   support<br>
 
    hardware       1.00      0.88      0.93         8 <br>
    software       0.83      1.00      0.91         5 <br>
