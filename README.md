@@ -10,15 +10,15 @@ Steps to follow:
 5.	Test the classifier with Test Data(New description)
 6.	Evaluate the performance of the classifier 
 
-Open Source Libraries used: Sklearn with NLTK Features
-Languages used: Python 2.7
-IDE used: Spyder3
-Algorithms used: Bernoulli NavieBayes
+<b>Open Source Libraries used:</b> Sklearn with NLTK Features <br>
+<b>Languages used:</b> Python 2.7 <br>
+<b>IDE used:</b> Spyder3 <br>
+<b>Algorithms used:</b> Bernoulli NavieBayes <br>
 
 To classifiy the given description entered by the user will be calssiferd into SOFTWARE or HADRWARE(Using Bernoulli NavieBayes)
 Results Will be followed as follows:
 
-Sample Output:
+<h1>Sample Output:</h1>
                1.Enter your Description to Classify
                2.Display confusion Matrix(Classifier)
                3.Exit/Quit
@@ -37,10 +37,10 @@ What would you like to do? 2
 Classification of Request description(Using Bernoulli NaievBayes Algo)
              	precision    recall  f1-score   support
 
-   hardware       1.00      0.88      0.93         8
-   software       0.83      1.00      0.91         5
+   hardware       1.00      0.88      0.93         8 <br>
+   software       0.83      1.00      0.91         5 <br>
 
-avg / total       0.94      0.92      0.92        13
+avg / total       0.94      0.92      0.92        13 <br>
 
 The accuracy score is 92.31%
 
