@@ -3,14 +3,53 @@ Classification of Request Descriptions
 In this task, features are the words (Keywords) in the description of the request raised by the user. For this, we have used Bag of Words Model (NLP) to find the frequency of the words in a description /Document and make them to classify either as a software or hardware.
 Steps to follow:
 1.	Preprocess the given dataset 
-a.	Label the set of examples manually 
+    a.	Label the set of examples manually 
 2.	Create Feature Extractor 
 3.	Build the classifier 
 4.	Train the Classifier with Manually labelled Dataset
 5.	Test the classifier with Test Data(New description)
 6.	Evaluate the performance of the classifier 
 
-Open Source Libraries used: Sklearn with NLTK Features 
-Languages used: Python 2.7 
-IDE used: Spyder3 
-Algorithms used: Bernoulli NavieBayes 
+Open Source Libraries used: Sklearn with NLTK Features
+Languages used: Python 2.7
+IDE used: Spyder3
+Algorithms used: Bernoulli NavieBayes
+
+To classifiy the given description entered by the user will be calssiferd into SOFTWARE or HADRWARE(Using Bernoulli NavieBayes)
+Results Will be followed as follows:
+
+Sample Output:
+               1.Enter your Description to Classify
+               2.Display confusion Matrix(Classifier)
+               3.Exit/Quit
+               
+What would you like to do? 1
+Enter the Request Description to classify: monitor issue
+*********************************
+'monitor issue' => ['hardware']
+*********************************
+
+               1.Enter your Description to Classify
+               2.Display confusion Matrix(Classifier)
+               3.Exit/Quit
+               
+What would you like to do? 2
+Classification of Request description(Using Bernoulli NaievBayes Algo)
+             	precision    recall  f1-score   support
+
+   hardware       1.00      0.88      0.93         8
+   software       0.83      1.00      0.91         5
+
+avg / total       0.94      0.92      0.92        13
+
+The accuracy score is 92.31%
+
+               1.Enter your Description to Classify
+               2.Display confusion Matrix(Classifier)
+               3.Exit/Quit
+               
+What would you like to do? 3
+
+Exit >>>
+
+
