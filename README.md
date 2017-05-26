@@ -33,7 +33,7 @@ What would you like to do? 1 <br>
                2.Display confusion Matrix(Classifier)
                3.Exit/Quit
                
-What would you like to do? 2
+What would you like to do? 2 <br>
 Classification of Request description(Using Bernoulli NaievBayes Algo)<br>
              	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;precision&nbsp;&nbsp;&nbsp;&nbsp;recall&nbsp;&nbsp;&nbsp;&nbsp;f1-score   support<br>
 
